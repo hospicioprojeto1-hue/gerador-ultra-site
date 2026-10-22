@@ -1,0 +1,51 @@
+GERADOR ULTRA MAIN — SITE INFORMATIVO PARA GITHUB PAGES
+=======================================================
+
+Seu repositório:
+https://github.com/hospicioprojeto1-hue/gerador-ultra-site
+
+PASSO 1 — ANTES DO ENVIO
+Abra os arquivos "privacidade.html" e "termos.html" com o Bloco de Notas.
+Substitua o texto SUBSTITUIR_PELO_EMAIL_DE_SUPORTE por um e-mail de contato que você autoriza a divulgar publicamente.
+Os dois arquivos são modelos; confirme que as descrições de armazenamento, acesso e exclusão de tokens correspondem ao funcionamento real da integração que será implementada.
+
+PASSO 2 — ENVIAR AO GITHUB
+1. Abra o link do repositório acima.
+2. Clique em Add file > Upload files.
+3. EXTRAIA ESTE ZIP para uma pasta no Windows antes de enviar.
+4. Selecione e arraste os arquivos individuais abaixo para o GitHub, na RAIZ do repositório (não dentro de uma subpasta):
+   - index.html
+   - privacidade.html
+   - termos.html
+   - styles.css
+   - .nojekyll (opcional, arquivo oculto)
+5. Clique em Commit changes na branch main.
+6. Não envie INSTRUCOES_LEIA_PRIMEIRO.txt ao site (é um guia de trabalho).
+
+PASSO 3 — VERIFICAR SITE
+Endereço esperado da página inicial:
+https://hospicioprojeto1-hue.github.io/gerador-ultra-site/
+
+Política de Privacidade:
+https://hospicioprojeto1-hue.github.io/gerador-ultra-site/privacidade.html
+
+Termos de Uso:
+https://hospicioprojeto1-hue.github.io/gerador-ultra-site/termos.html
+
+O GitHub Pages pode precisar de alguns minutos após o commit.
+
+ATENÇÃO SOBRE O GOOGLE OAUTH
+- Hospedar no GitHub Pages não garante aprovação do domínio do aplicativo pelo Google.
+- Para produção e verificação de marca, Google exige uma página inicial em domínio que você controla e consegue verificar no Search Console.
+- Um domínio personalizado (ex.: "seudominio.com.br") pode ser necessário. Se for, você pode apontá-lo para o GitHub Pages sem alterar os arquivos.
+- O uso pessoal com até 100 usuários pode se enquadrar em exceção à verificação de OAuth, mas isso não significa que qualquer requisito de segurança pode ser ignorado.
+- NUNCA faça upload de client_secret*.json, token*.json, credenciais, arquivos .env ou chaves para um repositório público.
+
+ITENS DO PACOTE
+- index.html: apresentação do aplicativo
+- privacidade.html: política de privacidade inicial, a validar com a implementação
+- termos.html: termos de uso
+- styles.css: estilo responsivo
+- .nojekyll: sinalização para servir arquivos estáticos
+
+Próximo objetivo após site online: configurar domínio autorizado/verificação no Google e conectar o OAuth ao programa local.
